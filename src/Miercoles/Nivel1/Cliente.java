@@ -16,24 +16,18 @@ public class Cliente {
     
     public Cliente()
     {
-        
+        //constructor por default
     }
     public Cliente(String nombre, int[]carroCompra)
     {
         this.nombre = nombre;
         this.carroCompra = carroCompra;
     }
-    public String getNombre()
-    {
-        return nombre;
-    }
+    public String getNombre(){ return nombre; }
     /*public void setNombre() esto se hace en el constructor this.
     {
         this.nombre = nombre;
     }*/
-    public int[] getCarroCompra()
-    {
-        return carroCompra;
-    }
+    public int[] getCarroCompra(){ return carroCompra;}
     
 }

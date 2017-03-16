@@ -12,15 +12,10 @@ package Miercoles.Nivel3;
 public class Cajera {
     private String nombre;
     
-    public Cajera()
-    {
-        
-    }
-    public Cajera(String nombre)
-    {
+    public Cajera() {    }
+    public Cajera(String nombre) { 
         this.nombre = nombre; //constructor con parametro
-        
-    } 
+ } 
     public String getNombre(){return nombre;}
     public void setNombre(String nombre)
     {
@@ -42,7 +37,7 @@ public class Cajera {
     
     /**
      * Método procesar compra
-     * @param Cliente
+     * 
      * @param long timeStamp
      */
     public void procesarCompra(Cliente cliente,long timeStamp)
